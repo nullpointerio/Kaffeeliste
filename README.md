@@ -1,9 +1,13 @@
 # Kaffeeliste
 ASCII-Art Generator
 
+## Usage
+```
+kaffeeliste --help
+```
 
 
-### Demo
+## Demo
 mode: ```ASCII (seperated) ```
 
 ```
