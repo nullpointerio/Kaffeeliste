@@ -5,6 +5,14 @@ ASCII-Art Generator
 ```
 kaffeeliste --help
 usage: Kaffeeliste [-h|--help] [--headline "<value>"] [--headlinefont
+                   "<value>"] [-f|--file "<value>"] [--char "<value>"]
+                   [-w|--width <integer>] [--widthnamecol <integer>] [-c|--cols
+                   <integer>] [-r|--rows <integer>] -n|--name "<value>"
+                   [-n|--name "<value>" ...] [-b|--border]
+
+                   Generates a list containing all coffee-trinkers to make a
+                   tick for every coffee
+
 Arguments:
 
   -h  --help          Print help information
