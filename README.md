@@ -4,6 +4,21 @@ ASCII-Art Generator
 ## Usage
 ```
 kaffeeliste --help
+usage: Kaffeeliste [-h|--help] [--headline "<value>"] [--headlinefont
+Arguments:
+
+  -h  --help          Print help information
+      --headline      Headline. Default: Kaffeeliste
+      --headlinefont  Font from https://github.com/common-nighthawk/go-figure.
+                      Default: univers
+  -f  --file          path of configuration file
+      --char          character for each position. Default: C
+  -w  --width         col width (characters per col). Default: 5
+      --widthnamecol  width of the name-column. Default: 18
+  -c  --cols          number of cols. Default: 7
+  -r  --rows          number of rows per name. Default: 5
+  -n  --name          names of the coffee-trinkers
+  -b  --border        show border. Default: true
 ```
 
 
