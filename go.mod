@@ -1,4 +1,4 @@
-module Kaffeeliste
+module github.com/nullpointerio/Kaffeeliste
 
 go 1.17
 
