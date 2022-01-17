@@ -1,6 +1,8 @@
 # .github/workflows/release.yaml
 # Docs: https://github.com/marketplace/actions/go-release-binaries
 
+name: Release Executables
+
 on:
   push:
     tags: [ 'v*.*.*' ]
