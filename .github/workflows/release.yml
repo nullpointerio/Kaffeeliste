@@ -4,8 +4,8 @@
 name: Release Executables
 
 on:
-  push:
-    tags: [ 'v*.*.*' ]
+  release:
+    types: [created]
 
 jobs:
   releases-matrix:
